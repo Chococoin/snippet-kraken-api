@@ -1,0 +1,17 @@
+{
+  "name": "api-kraken",
+  "version": "1.0.0",
+  "description": "An API to communicate the balance of a Kraken Account",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "German Lugo",
+  "license": "ISC",
+  "dependencies": {
+    "kraken-api": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
